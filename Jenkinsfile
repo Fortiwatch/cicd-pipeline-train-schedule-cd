@@ -9,7 +9,7 @@ pipeline {
             }
         }
     }
-    stage('DeployToStaging') {
+        stage('DeployToStaging') {
             when {
                 branch 'master'
             }
@@ -38,5 +38,5 @@ pipeline {
                     )
                 }
             }
-    }
+        }
 }
